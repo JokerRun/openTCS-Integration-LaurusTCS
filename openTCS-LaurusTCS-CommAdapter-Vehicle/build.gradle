@@ -1,0 +1,19 @@
+apply from: "${rootDir}/gradle/guice-project.gradle"
+
+dependencies {
+    compile project(':openTCS-LaurusTCS-Common')
+    compile group: 'org.opentcs', name: 'opentcs-api-injection', version: openTcsBaselineVersion
+    compileOnly group: 'org.opentcs', name: 'opentcs-api-injection', version: openTcsBaselineVersion, classifier: 'sources'
+
+    compile group: 'org.opentcs', name: 'opentcs-common', version: openTcsBaselineVersion
+    compileOnly group: 'org.opentcs', name: 'opentcs-common', version: openTcsBaselineVersion, classifier: 'sources'
+
+    compile group: 'org.opentcs.contrib', name: 'opentcs-contrib-tcp-netty', version: '0.13.0'
+    compileOnly group: 'org.opentcs.contrib', name: 'opentcs-contrib-tcp-netty', version: '0.13.0', classifier: 'sources'
+
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
+    compileOnly group: 'commons-codec', name: 'commons-codec', version: '1.10', classifier: 'sources'
+    //以下依赖用于单独启动sinmulator时打印日志使用。编译内核前需屏蔽才不会影响内核的日志打印。
+    compile "org.slf4j:slf4j-simple:1.6.1"
+
+}

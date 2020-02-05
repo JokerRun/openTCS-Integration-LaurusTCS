@@ -1,0 +1,8 @@
+rootProject.name = 'openTCS-LaurusTCS'
+
+include 'openTCS-LaurusTCS-Kernel'
+include 'openTCS-LaurusTCS-KernelControlCenter'
+include 'openTCS-LaurusTCS-PlantOverview'
+include 'openTCS-LaurusTCS-Documentation'
+include 'openTCS-LaurusTCS-Common'
+include 'openTCS-LaurusTCS-CommAdapter-Vehicle'
