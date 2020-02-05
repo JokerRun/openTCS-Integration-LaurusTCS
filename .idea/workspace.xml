@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dae302b5-94a3-4299-869f-7c8cddbdbde5" name="Default Changelist" comment="" />
+    <list default="true" id="dae302b5-94a3-4299-869f-7c8cddbdbde5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +282,7 @@
       <workItem from="1579503463334" duration="9835000" />
       <workItem from="1579517091837" duration="628000" />
       <workItem from="1580799379582" duration="2352000" />
-      <workItem from="1580805921933" duration="31813000" />
+      <workItem from="1580805921933" duration="32068000" />
     </task>
     <task id="LOCAL-00001" summary="rico :: modified .gitignore">
       <created>1580920597418</created>
